@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GroupAssigment1</string>
+    <string name="category_photo_url">Category Photo URL</string>
+    <string name="category_name">Category Name</string>
+    <string name="insert_category_page">Insert Category Page</string>
+    <string name="insert">Insert</string>
+    <string name="go">Go</string>
+    <string name="welcome_to_our_library_system">Welcome to our Library System</string>
+    <string name="up_date_page">Update Book Page</string>
+    <string name="up_date">Update</string>
+    <string name="book_photo">Book Photo</string>
+    <string name="release_date">Release Date</string>
+    <string name="original_language">Original Language</string>
+    <string name="detailed_book">Detailed Book</string>
+    <string name="book_name">Book Name</string>
+    <string name="book_author">Book Author</string>
+    <string name="publisher">publisher</string>
+    <string name="search_here">Search Here</string>
+    <string name="insert_new_category">Insert New Category</string>
+    <string name="insert_new_book">Insert New Book</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activities.BookListActivity">
+
+    <ListView
+        android:id="@+id/book_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="427dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="30sp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="439dp"></ListView>
+
+    <Button
+        android:id="@+id/insert_btn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/book_listView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="insert_btn_OnClick"
+        android:text="@string/insert_new_book"
+        android:textColor="#F1F9FF"
+        android:textSize="18sp"
+        app:backgroundTint="#3A3D49"
+        app:icon="@android:drawable/ic_input_add" />
+
+</RelativeLayout>
